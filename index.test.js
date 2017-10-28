@@ -7,5 +7,6 @@ test('random', function test() {
 });
 
 test('seed random', function test() {
-  assert.ok(plants.random('1') === plants.random('1'));
+  assert.ok(plants.random('11'));
+  assert.ok(plants.random('11') === plants.random('11'));
 });
